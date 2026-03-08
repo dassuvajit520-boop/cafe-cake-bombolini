@@ -21,39 +21,13 @@ export default function BrandStory() {
           </div>
           
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-serif text-brown-dark mb-8 leading-tight">
-            Sweet Moments <br />
-            <span className="italic text-caramel">Delivered Here</span>
+            A Passion for <br />
+            <span className="italic text-caramel">Perfect Pastries</span>
           </h2>
           
-          <p className="text-brown-dark/70 text-lg leading-relaxed mb-6 font-light">
-            The truly great moments start with a bite. Born out of love for authentic Italian pastries, Mekruvs brings you the softest, most pillowy bomboloni you've ever tasted.
-          </p>
           <p className="text-brown-dark/70 text-lg leading-relaxed mb-8 font-light">
-            Every morning, we craft our dough from scratch, filling each piece with rich, velvety creams and jams, ensuring every bite is a moment of pure bliss.
+            Mekruvs started with a simple dream: to bring the authentic taste of Italian bomboloni to our streets. What began in a small home kitchen has blossomed into a beloved local brand.
           </p>
-
-          <div className="relative pl-6 border-l-2 border-caramel mb-10">
-            <Quote size={24} className="text-caramel/40 absolute -top-2 -left-3" />
-            <p className="text-brown-dark font-serif italic text-xl leading-relaxed">
-              "Our secret ingredient isn't just the premium vanilla or the organic flour—it's the patience we put into letting the dough rise perfectly."
-            </p>
-            <span className="block mt-4 text-sm font-semibold text-brown-dark/60 uppercase tracking-wider">— The Head Baker</span>
-          </div>
-
-          <div className="grid grid-cols-3 gap-6 mb-10 w-full">
-            <div className="flex flex-col">
-              <span className="text-3xl font-serif font-bold text-caramel mb-1">100%</span>
-              <span className="text-xs text-brown-dark/60 uppercase tracking-wider font-semibold">Natural</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-3xl font-serif font-bold text-caramel mb-1">24h</span>
-              <span className="text-xs text-brown-dark/60 uppercase tracking-wider font-semibold">Dough Rest</span>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-3xl font-serif font-bold text-caramel mb-1">5am</span>
-              <span className="text-xs text-brown-dark/60 uppercase tracking-wider font-semibold">Baked Daily</span>
-            </div>
-          </div>
           
           <Link 
             to="/story"
@@ -81,22 +55,6 @@ export default function BrandStory() {
             {/* Overlay gradient for depth */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent pointer-events-none" />
           </div>
-
-          {/* Overlapping smaller image */}
-          <motion.div 
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.8, delay: 0.5 }}
-            className="absolute -bottom-12 -left-8 md:-left-12 w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-8 border-cream shadow-xl z-10 hidden sm:block"
-          >
-            <img 
-              src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=600&auto=format&fit=crop" 
-              alt="Baker kneading dough" 
-              className="w-full h-full object-cover"
-              referrerPolicy="no-referrer"
-            />
-          </motion.div>
         </motion.div>
 
       </div>

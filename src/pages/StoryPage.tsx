@@ -58,10 +58,10 @@ export default function StoryPage() {
           >
             <h2 className="text-3xl font-serif font-bold text-brown-dark mb-6">It Started With a Memory</h2>
             <p className="text-brown-dark/80 font-light leading-relaxed mb-6">
-              The story of Mekruvs Bomboloni didn't begin in a commercial kitchen, but in a small, sunlit kitchen in Italy. Our founder, growing up surrounded by the rich aromas of fresh baking, learned early on that the best food isn't just made with ingredients—it's made with time, patience, and love.
+              Our story didn't begin in a commercial kitchen, but in a small home oven with a simple desire: to recreate the unforgettable taste of a true Italian bomboloni. We learned early on that the best food isn't just made with ingredients—it's made with time, patience, and love.
             </p>
             <p className="text-brown-dark/80 font-light leading-relaxed">
-              The bomboloni—a soft, pillowy Italian doughnut—was always the centerpiece of family gatherings. It wasn't just a dessert; it was a symbol of celebration, warmth, and togetherness. We wanted to bring that exact feeling to your table.
+              The bomboloni isn't just a pastry; it's a symbol of celebration, warmth, and togetherness. We wanted to bring that exact feeling to your table.
             </p>
           </motion.div>
 
